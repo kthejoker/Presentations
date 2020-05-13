@@ -18,15 +18,11 @@ dependencies:
 - pip=20.1
 - pip:
     # Required packages for AzureML execution, history, and data preparation.
-
   - azureml-defaults
-  - azureml-dataprep
-  - azure-cli
-
   - inference-schema[numpy-support]
 - scikit-learn
 - pandas
 - numpy
-- jupyter
+
 channels:
 - conda-forge

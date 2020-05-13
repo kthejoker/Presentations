@@ -49,3 +49,4 @@ Temporary Items
 # custom exclusions
 
 /Data Science in PowerBI/azureml/envs/*
+Data Science in PowerBI/azureml/.vscode/settings.json
