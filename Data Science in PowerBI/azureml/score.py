@@ -10,9 +10,7 @@ from sklearn.externals import joblib
 
 def init():
     global titanic_classifier
-    model_path = Model.get_model_path(model_name = "titanic_classifier")
-    #model_path = "finalized_model.sav"
-    #with open(model_path, "rb") as f:
+    model_path = Model.get_model_path(model_name = "titanic_classifier_model")
     titanic_classifier = joblib.load(model_path)
 
 input_sample = pd.DataFrame(data=[{
